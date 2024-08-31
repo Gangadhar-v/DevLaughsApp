@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/blue"
+        app:cardCornerRadius="15dp"
+
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="15dp"
+            android:backgroundTint="@color/gray"
+            android:layout_marginBottom="15dp"
+            android:textAlignment="gravity"
+            android:layout_marginEnd="10dp">
+            <TextView
+                android:id="@+id/joketv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp"
+                android:padding="10dp"
+                android:textColor="@color/textColor"
+                android:text="Sri Adi Shankaraachaarya"
+                android:textSize="23sp"
+                android:fontFamily="sans-serif-black"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</FrameLayout>
+
